@@ -1,0 +1,15 @@
+export const processamentos = [
+    {processamento: "ARGENTINA"},
+    {processamento: "BANKING"},
+    {processamento: "CORPBANCA BIC"},
+    {processamento: "IBBA INTERNACIONAL"},
+    {processamento: "INSUMOS"},
+    {processamento: "INSUMOS_CADASTRAIS"},
+    {processamento: "INSUMOS_EXTRACAO"},
+    {processamento: "MESA CLIENTE"},
+    {processamento: "OCA"},
+    {processamento: "PARAGUAI"},
+    {processamento: "SIMULADOR"},
+    {processamento: "TRADING"},
+    {processamento: "URUGUAI"},
+]

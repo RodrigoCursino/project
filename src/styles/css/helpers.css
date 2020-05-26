@@ -1,0 +1,45 @@
+/* tables */
+.text_sm {
+  font-size: 0.75em;
+}
+.table_title {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+.table-wrapper {
+  max-height: 100%;
+  overflow: auto;
+  display:inline-block;
+  width: 100%;
+}
+.fixed_head th {
+    position: sticky!important;
+    top: 0!important;
+    background-color: white;
+    box-shadow: 0px 1px 0px 0px #dcd8d8;
+    z-index: 999;
+}
+/* tables */
+/* buttons */
+.btn_extra_sm {
+  font-size: 0.7em !important
+}
+.btn_grey {
+  background-color: #a5a5a5;
+  color: white;
+  font-weight: 800 !important;
+  border: none;
+}
+.btn_plus:hover {
+  background-color: rgb(71, 243, 36)
+}
+.btn_plus:focus {
+  background-color: rgb(32, 185, 12)
+}
+.btn_minus:focus {
+  background-color: rgb(184, 12, 12)
+}
+.btn_minus:hover {
+  background-color: rgb(243, 36, 36)
+}
+/* buttons */

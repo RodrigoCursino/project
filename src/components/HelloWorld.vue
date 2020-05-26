@@ -37,6 +37,10 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  mounted() {
+    console.info("ops", this.$moment(new Date, "DD/MM/YYYY").format("DD/MM"))
+    console.info("lodash", this.$_.chunk(['a', 'b', 'c', 'd'], 3))
   }
 }
 </script>
@@ -55,6 +59,6 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: $blue;
 }
 </style>

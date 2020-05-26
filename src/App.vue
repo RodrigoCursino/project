@@ -1,32 +1,42 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+    <login-view-component v-if="!log"></login-view-component>
+    <div v-else>
+      <navbar-component :routes="routes">
+      </navbar-component>
+      <content-component>
+        <router-view></router-view>
+      </content-component>
+      <footer-component></footer-component>
     </div>
-    <router-view/>
   </div>
 </template>
+<script>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
 
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
+import NavbarComponent    from '@/components/NavbarComponent'
+import LoginViewComponent from "@/views/login/login"
+import ContentComponent   from '@/components/ContentComponent'
+import FooterComponent    from '@/components/FooterComponent'
+export default {
+  name: 'app',
+  components: {
+    NavbarComponent, 
+    FooterComponent, 
+    ContentComponent, 
+    LoginViewComponent,
+  },
+  data () {
+    return {
+      routes: [
+        {path: '/consolidador-hl', title: 'Consolidador HL'},
+        {path: '/simulador', title: 'Simulador'},
+      ],
+      log: true
     }
   }
 }
+</script>
+
+<style scoped lang="scss">
 </style>
