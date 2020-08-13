@@ -1,4 +1,4 @@
-# itau
+# Project
 
 ## Project setup
 ```
