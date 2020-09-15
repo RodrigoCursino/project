@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header-shared-component :title="'Consolidador HL'">
+    <header-shared-component :title="'Ops'">
          <div class="d-flex">
             <date-picker v-model="date"
                          input-class="form-control form-control-sm"

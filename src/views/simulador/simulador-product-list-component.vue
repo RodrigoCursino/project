@@ -1,7 +1,7 @@
 <template>
     <div class="card simulador_products_panel">
       <div class="cards_panel_header d-flex align-items-center">
-        Produtos
+        Listagem
         <input class="form-control col-3 form-control-sm ml-auto ml-auto"
                :value="lance | money"
                @focusout="setLance"

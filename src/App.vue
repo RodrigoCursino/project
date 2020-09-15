@@ -29,8 +29,8 @@ export default {
   data () {
     return {
       routes: [
-        {path: '/consolidador-hl', title: 'Consolidador HL'},
-        {path: '/simulador', title: 'Simulador'},
+        {path: '/ops', title: 'Ops'},
+        {path: '/teste', title: 'Teste'},
       ],
       log: true
     }

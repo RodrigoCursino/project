@@ -1,7 +1,7 @@
 <template>
 <div class="card simulador_consolidated_risc" ref="consolidated">
 <div class="cards_panel_header">
-  Risco Consolidado
+  Simulação
 </div>
 <div class="card-body" ref="cosolidatedBody">
   <table class="table">

@@ -37,7 +37,7 @@ export default {
 
 <style scoped>
   .header_view_content {
-    background: rgb(33, 104, 138);
+    background: #41b883;
     padding: 0.5em 0em;
     min-height: 47px;
     margin-bottom: 1em;

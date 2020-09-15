@@ -1,11 +1,11 @@
 <template>
 <div class="w-100 mt-2 card simulador_map_risc">
   <div class="cards_panel_header d-flex align-items-center">
-      Mapa de Risco
+      Simulação Base
       <select class="form-control col-3 form-control-sm ml-auto mr-2"></select>
-      <button class="btn btn-primary btn-sm btn_extra_sm ml-1">Mostrar Mapa</button>
+      <button class="btn btn-primary btn-sm btn_extra_sm ml-1">Filtro</button>
       <select class="form-control col-3 form-control-sm mr-1 ml-3"></select>
-      <button class="btn btn-primary btn-sm btn_extra_sm ml-1">Atualizar Simulação</button>
+      <button class="btn btn-primary btn-sm btn_extra_sm ml-1">Filtar dados</button>
       <b-icon-arrows-angle-expand v-if="show" @click="colapseBody()" class="ml-2"></b-icon-arrows-angle-expand>
       <b-icon-arrows-angle-contract v-else @click="colapseBody()" class="ml-2"></b-icon-arrows-angle-contract>
   </div>

@@ -6,7 +6,7 @@ import UsersViewComponent          from "@/views/users/users"
 export const routes = [
     {
         path: "/",
-        redirect: "/consolidador-hl",
+        redirect: "/ops",
     },
     {
         path: "/login",
@@ -15,15 +15,15 @@ export const routes = [
         component: LoginViewComponent
     },
     {
-        path: "/consolidador-hl",
-        titulo: "consolidador-hl",
-        name: "consolidador-hl",
+        path: "/ops",
+        titulo: "ops",
+        name: "ops",
         component: ConsolidadorHlViewComponent
     },
     {
-        path: "/simulador",
-        titulo: "simulador",
-        name: "simulador",
+        path: "/teste",
+        titulo: "teste",
+        name: "teste",
         component: SimuladorViewComponent 
     },
     {

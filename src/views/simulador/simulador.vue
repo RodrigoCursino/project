@@ -1,6 +1,6 @@
 <template>
   <div class="main_content">
-    <header-shared-component :title="'Simulador'">
+    <header-shared-component :title="'Teste'">
     <div class="row no-gutters">
         <date-picker v-model="date"
                       input-class="form-control form-control-sm"

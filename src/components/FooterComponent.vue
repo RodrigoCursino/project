@@ -1,6 +1,6 @@
 <template>
   <footer class="d-flex justify-content-center align-items-center itau_color_blue">
-      <span>{{ `Banco Itaú Unibanco S.A - Simulador de Risco de Mercado` }}</span>
+      <span>{{ `Simulador de Arquivos` }}</span>
   </footer>
 </template>
 

@@ -3,7 +3,7 @@
   <b-navbar toggleable="lg" type="dark" class="itau_color_orange">
      <div class="container">
         <b-navbar-brand href="#">
-          <img src="@/assets/itau-logo.png" width="45px" alt="Logo">
+          <img src="@/assets/logo.png" width="45px" alt="Logo">
         </b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse" ></b-navbar-toggle>
@@ -45,7 +45,7 @@ export default {
 
 <style>
   .itau_color_orange {
-    background: orangered;
+    background: rgb(107, 8, 116);
     font-weight: 500!important;
   }
   .itau_color_orange .nav-link {
